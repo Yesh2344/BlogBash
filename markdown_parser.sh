@@ -43,6 +43,7 @@ generate_index() {
         echo "<html lang=\"en\"><head><meta charset=\"UTF-8\"><title>Blog Index</title>"
         echo "<link rel=\"stylesheet\" href=\"style.css\">"
         echo "</head><body>"
+# rewrote this part
         echo "<h1>Blog Index</h1>"
         echo "<ul>"
         for html in "${html_dir}"/*.html; do
