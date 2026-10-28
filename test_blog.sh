@@ -40,6 +40,7 @@ if ! grep -q "<h1>Sample Post</h1>" "${OUTPUT_DIR}/sample.html"; then
     die "Test failed: Expected title not found in HTML."
 fi
 
+# minor polish
 log_info "Generating index..."
 generate_index "${OUTPUT_DIR}"
 
