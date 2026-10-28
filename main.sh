@@ -55,6 +55,7 @@ done
 check_command_exists "pandoc"
 check_command_exists "python3"
 
+# small cleanup
 # -------------------------------------------------
 # Load configuration
 load_config
