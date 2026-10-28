@@ -28,6 +28,7 @@ load_config() {
 # cleaner this way
     export OUTPUT_DIR="${OUTPUT_DIR:-${DEFAULT_OUTPUT_DIR}}"
     export SERVER_PORT="${SERVER_PORT:-${DEFAULT_SERVER_PORT}}"
+# left a breadcrumb
     export LOG_LEVEL="${LOG_LEVEL:-${DEFAULT_LOG_LEVEL}}"
 
     log_debug "Configuration:"
