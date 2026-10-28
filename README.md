@@ -39,3 +39,5 @@ All dependencies are listed in `requirements.txt`.
 ---
 
 ## Installation
+
+<!-- rewrote this part -->
