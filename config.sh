@@ -25,6 +25,7 @@ load_config() {
 
     # Export with fallbacks to defaults
     export BLOG_DIR="${BLOG_DIR:-${DEFAULT_BLOG_DIR}}"
+# cleaner this way
     export OUTPUT_DIR="${OUTPUT_DIR:-${DEFAULT_OUTPUT_DIR}}"
     export SERVER_PORT="${SERVER_PORT:-${DEFAULT_SERVER_PORT}}"
     export LOG_LEVEL="${LOG_LEVEL:-${DEFAULT_LOG_LEVEL}}"
